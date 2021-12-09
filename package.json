@@ -1,0 +1,42 @@
+{
+  "name": "yandex-react-webpack-5",
+  "version": "1.0.0",
+  "description": "react webpack 5",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "5"
+  ],
+  "author": "Evgeniy Budaev",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "react-hot-loader": "^4.13.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
